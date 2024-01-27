@@ -4,7 +4,7 @@ function checkSecretKey() {
     // Provera da li je uneti tajni ključ tačan
     if (secretKeyInput === '10') {
         // Ako je tačan, preusmeri na /10.html
-        window.location.href = '/10.html';
+        window.location.href = '/10';
     } else {
         // Ako nije tačan, obavesti korisnika
         alert('Pogrešan tajni ključ. Pokušajte ponovo.');
@@ -17,7 +17,7 @@ function checkSecretKey1() {
     // Provera da li je uneti tajni ključ tačan
     if (secretKeyInput === '25.10.2023') {
         // Ako je tačan, preusmeri na /10.html
-        window.location.href = '/jej.html';
+        window.location.href = '/jej';
     } else {
         // Ako nije tačan, obavesti korisnika
         alert('Pogrešan tajni ključ. Pokušajte ponovo.');
